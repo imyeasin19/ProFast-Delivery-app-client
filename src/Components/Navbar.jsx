@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import ProfastLogo from './ProfastLogo';
 
 const Navbar = () => {
@@ -27,8 +27,9 @@ const Navbar = () => {
                     {links}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
+            <div className="navbar-end gap-2">
+                <Link to='/login' className="btn">login</Link>
+                <Link to='/register' className="btn">Register</Link>
             </div>
         </div>
     );

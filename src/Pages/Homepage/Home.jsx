@@ -3,6 +3,7 @@ import Banner from './Banner';
 import ServicesSection from './ServicesSection';
 import ClientLogos from './ClientLogos';
 import ServiceHighlights from './ServiceHighlights';
+import Marchent from './Marchent';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <ServicesSection></ServicesSection>
             <ClientLogos></ClientLogos>
             <ServiceHighlights></ServiceHighlights>
+            <Marchent></Marchent>
         </div>
     );
 };

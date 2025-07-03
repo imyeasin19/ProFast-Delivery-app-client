@@ -37,7 +37,7 @@ const ServiceHighlights = () => {
                             alt={item.title}
                             className="w-40 h-40 object-contain"
                         />
-                        <div className="border-l-2 border-dashed border-gray-300 pl-6">
+                        <div className="border-t-2 lg:border-t-0 lg:border-l-2 border-dashed border-gray-300 pl-6">
                             <h3 className="text-xl font-bold mb-2">{item.title}</h3>
                             <p className="text-gray-600">{item.description}</p>
                         </div>
